@@ -1,0 +1,52 @@
+body{
+  font-family: sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration:none;
+}
+p{
+  letter-spacing: 1.2px;
+  line-height: 2rem;
+}
+li a{
+  margin: 0 20px;
+}
+
+#home img{
+  border: 2px solid #5f97ea;
+  border-radius: 50% ;
+  box-shadow: 1px 1px 20px 13px #5f97ea;
+}
+#skills img{
+  width: 30px;
+  border-radius: 50%;
+}
+img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 2s;
+}
+i{
+  width: 30px;
+  margin: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.hide{
+  display: none;
+}
+span{
+  color: brown;
+  text-transform: capitalize;
+}
+.contact-input form input,textarea{
+  width:100% ;
+  margin-bottom: 2rem;
+  padding: 10px;
+  background-color: rgb(247, 247, 56);
+  outline: none;
+  border: none;
+}
